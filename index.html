@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css"> 
+    
+</head>
+<body class="bg">
+  
+
+    <!-- navbar starts here -->
+    <div class="container">
+            <hi class="heading"> Today's Weather</hi><br>
+        Enter the temperature: <input type="number" id="temp">
+        <input type="submit" value="submit" onclick="myFunction()">
+        <p id="text"></p>
+    </div>
+       <div class="container">
+        <header class="header">
+          <div class="search">
+            <input type="text" placeholder="Enter City Name" id="search-txt">
+            <a id="search-btn" href="#"><i class="fas fa-search"></i></a>
+          </div>
+        </header>
+      
+        <main id="main">
+          
+          <div class="city-icon">
+            <div class="city-icon-holder">
+            <div id="city-name"></div>
+            <img src="" alt="" id="icon">
+              </div>
+          </div>
+          
+          <div class="temperature">
+            <div id="temp"></div>
+          </div>
+          
+          <div class="humidity">
+            <div id="humidity-div"></div>
+          </div>
+          
+        </main>
+        
+      </div>
+
+
+
+
+
+    </div>
+    </div>
+    <script src="js/main.js"></script>
+    <script src="js/alert.js"></script>
+    
+</body>
+</html>
